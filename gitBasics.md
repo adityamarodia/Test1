@@ -16,3 +16,22 @@
 				- ^+X to exit
 	- To check changes made to the file from the **most recent commit**, write:
 		- `git diff`
+- To Push these commits to github:
+	- ```git remote add origin https://github.com/adityamarodia/Test1.git
+	  git branch -M main
+	  git push -u origin main
+	- The `git remote` command allows you to sync your local repository with some external *remote repository*. 
+		- `origin` is the name of the remote repo
+		- And the web address is the location of the remote repository.
+	- The branch command renames the branch to main (This is only required for the first time --- I think???)
+	- The last command pushes the commits to the remote repository
+		- `-u` is used to tell that the commit is "up to date" and should be pushed to the "end of the branch"
+		- `origin` is name of the remote repo
+		- `main` is the name of the branch which you are pushing the updates to
+- ####  Other References 
+	- **branches:** 
+		- https://www.atlassian.com/git/tutorials/using-branches
+		- git docs
+	- **Push Pull commands:**
+		- git doc
+		- https://www.atlassian.com/git/tutorials/syncing/git-push
