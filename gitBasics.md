@@ -1,0 +1,17 @@
+- To create a git-repository, go to the directory you want to monitor/track
+	- Then initialise the directory as a git-repo by running: 
+		- ```git init```
+- Now, you can track the files in this repository
+	- To check the tracking status of files use:
+		- ```git status```
+	- To add files which aren't being tracked as of then run:
+		- `git add <filename>`
+	- For example, if changes have been made to multiple files, then make sure to run the `git add` command for all the files you want to track.
+	- After you have *added* a file to the git *tracker*, you can record it by running:
+		- `git commit`
+			- A new (nano)window will open up:
+				- Here you, write what changes have been made to the code.
+				- ^+O to write
+				- ^+X to exit
+	- To check changes made to the file from the **most recent commit**, write:
+		- `git diff`
