@@ -12,6 +12,7 @@
 			- A new (nano)window will open up:
 				- Here you, write what changes have been made to the code.
 				- ^+O to write
+				- <*Enter*>
 				- ^+X to exit
 	- To check changes made to the file from the **most recent commit**, write:
 		- `git diff`
