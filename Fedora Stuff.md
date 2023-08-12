@@ -1,0 +1,3 @@
+- Changing lid close function on fedora:
+	- /etc/systemd/login.conf and find the key called HandleLidSwitch.
+	- HandleLidSwitch to {hibernate,lock,suspend,sleep,ignore} in /etc/systemd/logind.conf
